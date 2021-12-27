@@ -1,0 +1,111 @@
+
+.divide{
+   width: 0.0002px;
+   border-left: 0.1px solid rgb(155, 153, 153);
+    height: 800vh;
+}
+
+.header{
+    color: rgb(180, 131, 66);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.col-8{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.job-role{
+    margin-top: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-line{
+    width: 130px;
+    border-bottom: 0.3px solid rgb(182, 175, 175);
+    margin-top: 2px;
+}
+.profile{
+    color: rgb(177, 174, 174);
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+#biodata div{
+    font-size: 20px;
+    color: rgb(150, 146, 146);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#details div{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 13px;
+    margin-left: 30px;
+}
+#experience{
+    color: rgb(180, 131, 66);
+    font-size: 30px;
+    font-weight:400;
+}
+#edu-skills{
+    color: rgb(150, 146, 146);
+    font-size: 30px;
+    font-weight:400;
+}
+.lorem{
+    font-size: 16px;
+    color: rgb(150, 146, 146);
+    font-weight: 400;
+    margin-top: 16px;
+}
+.role{
+    color: rgb(245, 238, 238);
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.company{
+    font-size: 18px;
+    color: rgb(245, 238, 238);
+}
+#year{
+    color: rgb(150, 146, 146);
+    margin-left: 14px;
+}
+.experience-card{
+    width: 95%; 
+    height: 35vh; 
+    background-color: rgb(20, 15, 15); 
+    margin-top: 20px; 
+    padding: 40px;
+}
+#skill-card{
+    height: 30vh;
+    width: 95%;
+    background-color: rgb(20, 15, 15);
+    margin-bottom: 20px;
+   
+}
+#aa{
+    border-right: 0.1px solid rgb(155, 153, 153);
+    height: 100%;
+    color: white;
+}
+.job-skill{
+    color: rgb(245, 238, 238);
+    font-size: 28px;
+    font-weight: 400;
+}
+.price{
+    color: rgb(143, 99, 42);
+    font-size: 24px;
+    font-weight:400;
+}
+#box div{
+    height: 35vh;
+    background-color: turquoise;
+}

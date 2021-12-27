@@ -1,0 +1,35 @@
+.nav-item {
+  color: rgb(7, 108, 190);
+  padding-left: 100px;
+  padding-right: 2px;
+}
+
+.container-fluid {
+  height: 90px;
+  box-shadow: rgb(133, 137, 141) 0px 20px 30px -10px;
+}
+
+.btn btn-outline-primary me-2 {
+  height: 20px;
+  width: 50px;
+}
+
+.navbar-brand {
+  height: 0px;
+
+}
+
+.A {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size:xx-large;
+  color: rgb(63, 101, 133);
+  border-bottom: 2px solid rgb(16, 105, 146);
+}
+.B {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.card group {
+  padding-top: 100px;
+}
