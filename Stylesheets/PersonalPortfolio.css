@@ -21,6 +21,12 @@
     border-bottom: 0.3px solid rgb(182, 175, 175);
     margin-top: 2px;
 }
+
+.header-line1{
+  width: 130px;
+  border-bottom: 0.3px solid rgb(182, 175, 175);
+  margin-top: 2px;
+}
 .profile{
     color: rgb(177, 174, 174);
     margin-top: 30px;
@@ -28,7 +34,7 @@
     margin-bottom: 60px;
 }
 #biodata div{
-    font-size: 20px;
+    /* font-size: 5vw; */
     color: rgb(150, 146, 146);
     margin-bottom: 10px;
     font-weight: 600;
@@ -65,13 +71,29 @@
     font-weight: 400;
     text-align: left;
 }
+.lorem1{
+    font-size: 16px;
+    color: rgb(150, 146, 146);
+    font-weight: 400;
+    text-align: left;
+}
 .role{
     color: rgb(245, 238, 238);
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-weight: 400;
+    margin-top: 16px;
+}
+.role1{
+    color: rgb(245, 238, 238);
+    /* font-size: 28px; */
     font-weight: 400;
     margin-top: 16px;
 }
 .company{
+    font-size: 18px;
+    color: rgb(245, 238, 238);
+}
+.company1{
     font-size: 18px;
     color: rgb(245, 238, 238);
 }
@@ -136,11 +158,15 @@
     border-bottom: 0.3px solid rgb(182, 175, 175);
 }
 
-#arrow:hover{
-    border: 1px solid rgb(180, 131, 66);
-    width: 30%;
-    text-align: center;
+#baseline1{
+    border-bottom: 0.3px solid rgb(182, 175, 175);
 }
+
+/* #arrow:hover{
+    border: 1px solid rgb(180, 131, 66);
+    width: 20%;
+    text-align: center;
+} */
 
 .card-body{
     color: grey;
@@ -148,10 +174,38 @@
     margin-left: 40px;
 }
 
+#card-body{
+    color: grey;
+    font-weight:bold;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+#card-body1{
+    color: grey;
+    font-weight:bold;
+    margin-left: 1.5px;
+    font-size: 15px;
+}
 .card-body span{
     color: white;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: -15px;
+    font-weight:bold;
+    font-size: 20px;  
+}
+#card-body span{
+    color: white;
+    margin-top: 15px;
+   
+    font-weight:bold;
+    font-size: 20px;  
+}
+
+#card-body1 span{
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
     font-weight:bold;
     font-size: 20px;  
 }
@@ -167,4 +221,217 @@
   .sticky-top{
       position: sticky;
   }
+
+  @media screen and (max-width: 601px) {
+    .header-line1 {
+      width: 60px;
+    }
+  }
+  
+  @media screen and (min-width: 601px) {
+    #biodata div {
+      font-size: 1.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #biodata div {
+      font-size: 3vw;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    #details div{
+      font-size: 1.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #details div{
+      font-size: 3vw;
+      margin-left: -3px;
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    .company{
+      font-size: 2.8vw;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .company {
+      font-size: 1.5vw;
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    .role{
+      font-size: 2.8vw;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .role {
+      font-size: 1.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 601px) {
+    .lorem{
+      font-size: 2.8vw;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .lorem {
+      font-size: 1.5w;
+    }
+  }
+   /* @media screen and (max-width: 601px) {
+    .lorem p{
+      font-size: 2vw;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .lorem p{
+      font-size: 2vw;
+    }
+  } */
+
+  @media screen and (max-width: 601px) {
+    .role1{
+      font-size: 4vw;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .role1 {
+      font-size: 2vw;
+    }
+ }
+
+ @media screen and (max-width: 601px) {
+    .company1{
+      font-size: 4vw;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .company1 {
+      font-size: 2vw;
+    }
+ }
+
+ @media screen and (max-width: 601px) {
+    #card-body1{
+      font-size: 1vw;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    #card-body {
+      font-size: 1.5vw;
+    }
+ }
+
+ @media screen and (max-width: 601px) {
+    .card-img-top1 {
+      width: 40vh;
+     
+     
+    }
+  }
+ 
+ @media screen and (max-width: 601px) {
+    .job-role {
+      font-size: 3.5vw ;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .job-role {
+        font-size: 2.5vw;
+    }
+ }
+
+ @media screen and (max-width: 601px) {
+    .profile {
+      font-size: 3.5vw;
+      padding-left: -40px;
+      
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .profile {
+        font-size: 2.2vw;
+      
+    }
+ }
+
+
+ @media screen and (max-width: 601px) {
+    #experience {
+      font-size: 3.7vw ;
+    }
+  }
+  
+
+ @media screen and (max-width: 601px) {
+    #edu-skills {
+      font-size: 3.7vw ;
+    }
+  }
+  
+  
+  @media screen and (max-width: 601px) {
+    #experience-line {
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    #card-body1 {
+      margin-left: -5px;
+      font-size: 2.5vw;
+      margin-top: 50px;
+    }
+  }
+
+
+  @media screen and (max-width: 601px) {
+    #arrow {
+      
+      margin-left:-50px;
+      
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    #baseline1 {
+      
+      margin-left:-15px;
+      width:130px;
+      
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    #image {
+      
+      padding-left:-10px;
+      
+    }
+  }
+
+
+  @media screen and (max-width: 601px) {
+    #secondcol {
+      
+      padding-left:-15px;
+      
+    }
+  }
+ 
+  @media screen and (max-width: 601px) {
+    #firstcol {
+      margin-left: 30px;
+   
+      
+    }
+  }
+
   

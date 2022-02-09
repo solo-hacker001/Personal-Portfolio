@@ -16,8 +16,16 @@
 <body style="background-color: rgb(36, 32, 32);">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-8" style="border-right: 1px solid rgb(155, 153, 153);">
-        <div class="header">INTRODUCTION</div>
+      <div class="col-md-4 text-center animated wow fadeInRight col-md-push-8" style="border-left: 1px solid rgb(155, 153, 153);">
+        <div class="sticky-top" id="firstcol">
+          <div class="card1" style="margin-top: 70px; margin-left: -2px; height: 90vh;  width: 55.5vh; background-color: rgb(36, 32, 32); border: 0.2px solid rgb(182, 175, 175); border-radius: 4px 4px 4px 4px; ">
+          <img class="card-img-top1" style=" width: 100%; border-radius: 8px 8px 8px 8px;" src="../Assets/picture.jpeg" alt="">
+          <div class="col-sm-6 col-md-6 col-lg-12" id="card-body1">HI THERE! I AM<br><span>Victoria Olatunji</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 animated wow fadeInLeft col-md-pull-4" id="secondcol" style="border-left: 1px solid rgb(155, 153, 153); padding-left: 30px;">
+        <div class="header" style="margin-top: 120px;">INTRODUCTION</div>
         <div class="job-role">Front-end Developer</div>
         <div class="header-line"></div>
         <div class="profile">I am a Junior Front-end developer with expertise in HTML, CSS, ReactJS and Wordpress. 
@@ -25,26 +33,23 @@
         </div>
         <div class="header" style="margin-top: 60px;">ABOUT ME</div>
         <div class="job-role">Biography</div>
-        <div class="header-line"></div>
+        <div class="header-line1"></div>
         <div class="profile">I have about one year experience in Web Development using HTML, CSS and React. I am also proficient in the use of Bootstrap CSS. I reside in Lagos, Nigeria. </div>
         <div class="row">
           <div class="col-4" id="biodata">
             <div>NAME</div>
-            <!-- <div>BIRTHDAY</div>
-            <div>AGE</div> -->
             <div>ADDRESS</div>
             <div>PHONE</div>
             <div>EMAIL</div>
-            <div>SKYPE</div>
+            <!-- <div>SKYPE</div> -->
           </div>
           <div class="col-4" id="details">
             <div>Victoria Olatunji</div>
-            <!-- <div>25th October 1993</div>
-            <div>28 years</div> -->
             <div>Lekki, Lagos</div>
             <div>08065197125</div>
             <div>aboladegeovhykee@gmail.com</div>
-            <div>aboladevic</div>
+            <div>vhykeel@gmail.com</div>
+            <!-- <div>aboladevic</div> -->
           </div>
         </div>
         <!-- <div class="download" style="margin-top: 40px; width: 90%; height: 35vh;">
@@ -57,9 +62,9 @@
         </div> -->
         <div class="row" style="margin-top: 70px;">
           <div class="col-2" id="experience">Experience</div>
-          <div class="col-2" style="margin-bottom: 20px; border-bottom: 0.3px solid rgb(150, 146, 146); width: 30px; margin-left: 30px;"></div>
+          <div class="col-2" id="experience-line" style="margin-bottom: 20px; border-bottom: 0.3px solid rgb(150, 146, 146); width: 30px; margin-left: 45px;"></div>
           <div class="col-2" id="edu-skills">Education</div>
-          <div class="col-2" style="margin-bottom: 20px; border-bottom: 0.3px solid rgb(150, 146, 146); width: 30px; margin-left: 30px;"></div>
+          <div class="col-2" id="experience-line" style="margin-bottom: 20px; border-bottom: 0.3px solid rgb(150, 146, 146); width: 30px; margin-left: 30px;"></div>
           <div class="col-2" id="edu-skills">Skills</div>
         </div>
         <div class="" style="width: 130px; margin-bottom: 50px; margin-top: 2px; border-bottom: 0.3px solid rgb(180, 131, 66);"></div>
@@ -231,13 +236,13 @@
         <!-- <div class="header-line"></div> -->
         <div style="margin-top: 70px;">
           <div class="row g-4">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <a href="https://vocationa.nerdzfactory.org/" style="text-decoration: none;">
                 <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;">
                   <img class="card-img-top" src="./Assets/vocationa.png" alt="" height="250px">
                     <div class="card-body">
                       <div class="card-text">
-                        <p class="lorem">FEBRUARY, 2022</p>
+                        <p>FEBRUARY, 2022</p>
                         <p>Vocationa </p>
                         <p>A Peer-to-peer E-Learning Platform </p>
                       </div>
@@ -245,13 +250,13 @@
                 </div>
               </a>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <a href="https://mycoffee-shop.netlify.app/" style="text-decoration: none;">
                 <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;" id="">
                   <img class="card-img-top" src="./Assets/coffeeshop.png" alt="" height="250px">
                     <div class="card-body">
                       <div class="card-text">
-                        <p class="lorem">JANUARY, 2022</p>
+                        <p>JANUARY, 2022</p>
                         <p>Coffee Shop</p>
                         <p>Built with ReactJS</p>
                       </div>
@@ -259,13 +264,13 @@
               </a>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <a href="https://victoria-olatunji.github.io/Grayscale" style="text-decoration: none;">
                 <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;">
                   <img class="card-img-top" src="./Assets/grayscale.png" alt="" height="250px">
                     <div class="card-body">
                       <div class="">
-                        <p class="lorem">DECEMBER, 2021</p>
+                        <p>DECEMBER, 2021</p>
                         <p>Grayscale</p>
                         <p>Built with HTML, Bootstrap and CSS</p>
                       </div>
@@ -273,13 +278,13 @@
                 </div>
               </a>
             </div>
-            <div class="col-6">
+            <div class="col-sm-4 col-md-6 col-lg-6">
               <a href="https://victoria-olatunji.github.io/Portfolio-template" style="text-decoration: none;">
                 <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;">
                   <img class="card-img-top" src="./Assets/template.png" alt="" height="250px">
                     <div class="card-body">
                       <div class="">
-                        <p class="lorem">NOVEMBER, 2021</p>
+                        <p>NOVEMBER, 2021</p>
                         <p>Bootstrap Template Site</p>
                         <p>Built with HTML, Bootstrap and CSS</p>
                       </div>
@@ -323,37 +328,37 @@
         <div style="margin-top: 24px;">
           <input type="button" value="SEND MESSAGE" class="input" style="height: 12vh; color: white;">
         </div> --> -->
-        <div class="lorem" style="margin-top: 50px;">ADDRESS</div>
-        <div class="role">
+        <div class="lorem1" style="margin-top: 50px;">ADDRESS</div>
+        <div class="role1">
           <p>14 Betty Udokwe Close, Graceland Estate, Ajah<br> Lagos.</p>
         </div>
-        <div class="lorem" style="margin-top: 40px;">PHONE</div>
-        <div class="role">(+234) 806-519-7125</div>
-        <div class="company" style="margin-top: 40px;">aboladegeovhykee@gmail.com</div>
+        <div class="lorem1" style="margin-top: 40px;">PHONE</div>
+        <div class="role1">(+234) 806-519-7125</div>
+        <div class="company1" style="margin-top: 40px;">aboladegeovhykee@gmail.com</div>
         <div class="header-line" style="margin-bottom: 150px;"></div>
         <div class="row" style="margin-bottom: 150px;">
           <div class="col-8" id="baseline"></div>
-          <div class="col-2" >
+          <div class="col-2" id="arrow" >
             <div>
               <i class="fa fa-long-arrow-up" id="arrow" style=" color: grey; margin-left: 50px; margin-top: 60px; font-size: 25px; font-weight: 100;"></i>
             </div>
             
           </div>
-          <div class="col-2" id="baseline"></div>
+          <div class="col-2" id="baseline1"></div>
         </div>
         <div>
-          <p class="lorem">Copyright © 2021. All rights reserved, <br> Designed & Developed by <span class="company">Victoria</span></p>
+          <p class="lorem1">Copyright © 2021. All rights reserved, <br> Designed & Developed by <span class="company1">Victoria</span></p>
         </div>
       </div>
-      <div class="col-3"  style="margin-top: 40px;">
+      <!-- <div class="col-md-5 text-center animated wow fadeInRight col-md-push-7"  style="margin-top: 40px;">
         <div class="sticky-top">
-          <div class="card" style="margin-top: 35px; margin-left: 50px; height: 70vh; background-color: rgb(36, 32, 32); border: 0.2px solid rgb(182, 175, 175);">
-          <img class="card-img-top" src="../Assets/picture.jpeg" alt="">
-          <div class="card-body">HI THERE! I AM<br><span>Victoria Olatunji</span></div>
+          <div class="card1" style="margin-top: 35px; margin-left: 50px; height: 60vh; background-color: rgb(36, 32, 32); border: 0.2px solid rgb(182, 175, 175); border-radius: 4px 4px 4px 4px;">
+          <img class="card-img-top1" src="../Assets/picture.jpeg" alt="">
+          <div class="col-sm-6 col-md-6 col-lg-12" id="card-body">HI THERE! I AM<br><span>Victoria Olatunji</span></div>
           </div>
         </div>
         
-      </div>
+      </div> -->
     </div>
   </div>
   
