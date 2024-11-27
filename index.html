@@ -1,379 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./bootstrap-5.1.3-dist//css/bootstrap.css" />
-    <link rel="stylesheet" href="./Stylesheets/PersonalPortfolio.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Personal Portfolio</title>
-</head>
-<body style="background-color: rgb(36, 32, 32);">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 text-center animated wow fadeInRight col-md-push-8" style="border-left: 1px solid rgb(155, 153, 153);">
-        <div class="sticky-top" id="firstcol">
-          <div class="card1" style="margin-top: 70px; margin-left: -2px; height: 50vh;  width: 55.5vh; background-color: rgb(36, 32, 32); border: 0.2px solid rgb(182, 175, 175); border-radius: 4px 4px 4px 4px; ">
-          <img class="card-img-top1" style=" width: 100%; border-radius: 8px 8px 8px 8px;" src="../Assets/picture.jpeg" alt="">
-          <div class="col-sm-6 col-md-6 col-lg-12" id="card-body1">HI THERE! I AM<br><span>Victoria Olatunji</span></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Stylesheets/PersonalPortfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Victoria Olatunji Portfolio</title>
+  </head>
+  <body style="background-color: rgb(36, 32, 32); color: white">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Sidebar Section -->
+        <div
+          class="col-md-4 text-center"
+          style="border-right: 1px solid rgb(155, 153, 153)"
+        >
+          <div class="sticky-top">
+            <div
+              class="card"
+              style="
+                margin-top: 70px;
+                background-color: rgb(36, 32, 32);
+                border: 0.2px solid rgb(182, 175, 175);
+                border-radius: 8px;
+              "
+            >
+              <img
+                class="card-img-top"
+                src="../Assets/picture.jpeg"
+                alt="Profile Picture"
+                style="width: 100%; border-radius: 8px"
+              />
+              <div class="card-body">
+                <h4 class="card-title">HI THERE! I AM</h4>
+                <h2 class="" style="color: rgb(180, 131, 66)">
+                  Victoria Olatunji
+                </h2>
+                <h5>Frontend & Blockchain Developer</h5>
+              </div>
+            </div>
+            <div class="mt-4">
+              <p><strong>Location:</strong> Lagos, Nigeria</p>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:vhykeel@gmail.com" style="color: white"
+                  >vhykeel@gmail.com</a
+                >
+              </p>
+              <p>
+                <strong>GitHub:</strong>
+                <a
+                  href="https://github.com/solo-hacker001"
+                  target="_blank"
+                  style="color: white"
+                  >Victoria-Olatunji</a
+                >
+              </p>
+              <p>
+                <strong>LinkedIn:</strong>
+                <a
+                  href="https://www.linkedin.com/in/victoria-olatunji-pmp%C2%AE-225622153?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                  target="_blank"
+                  style="color: white"
+                  >Victoria-Olatunji</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Section -->
+        <div class="col-md-8">
+          <!-- Introduction -->
+          <div class="mt-5">
+            <h3 class="text-uppercase" style="color: rgb(180, 131, 66)">
+              Introduction
+            </h3>
+            <hr style="border-color: rgb(180, 131, 66)" />
+            <p>
+              I am a Frontend and Blockchain Developer with expertise in modern
+              web technologies such as HTML, CSS, ReactJS, NextJS, TypeScript
+              and blockchain frameworks like Solidity, Web3.js, and Hardhat. I
+              thrive on building responsive and scalable applications,
+              contributing to user-focused solutions, and exploring innovative
+              blockchain use cases.
+            </p>
+          </div>
+
+          <!-- Skills -->
+          <div class="mt-5">
+            <h3 class="text-uppercase" style="color: rgb(180, 131, 66)">
+              Skills
+            </h3>
+            <hr style="border-color: rgb(180, 131, 66)" />
+            <ul>
+              <li>
+                Frontend Development: ReactJS, NextJS, JavaScript, TypeScript,
+                HTML, CSS, Bootstrap, Wordpress
+              </li>
+              <li>
+                Blockchain Development: Smart Contracts, Solidity, Web3.js,
+                Ether.js, Hardhat, Remix
+              </li>
+              <li>
+                Tools & Technologies: Git, Redux, API Integration, Responsive
+                Design
+              </li>
+              <li>
+                Project Management: Microsoft Project, Primavera, Risk
+                Mitigation Strategies
+              </li>
+            </ul>
+          </div>
+
+          <!-- Experience -->
+          <div class="mt-5">
+            <h3 class="text-uppercase" style="color: rgb(180, 131, 66)">
+              Experience
+            </h3>
+            <hr style="border-color: rgb(180, 131, 66)" />
+            <h5>
+              Frontend Developer - ABINBEV (BeerTech Africa) (2024 - Present)
+            </h5>
+            <p>
+              Designed responsive web applications with NextJS and implemented
+              APIs for seamless user experiences.
+            </p>
+            <h5>Blockchain Developer - Nepri Finance (2023 - 2024)</h5>
+            <p>
+              Developed and deployed decentralized finance (DeFi) solutions,
+              including lending platforms and smart contracts. Enhanced
+              blockchain scalability and security while integrating web3
+              functionality.
+            </p>
+            <h5>
+              Frontend Developer - KorrSphere Technologies Limited (2021 - 2023)
+            </h5>
+            <p>
+              Designed responsive web applications with ReactJS and implemented
+              APIs for seamless user experiences.
+            </p>
+          </div>
+
+          <div class="mt-5">
+            <h3 class="text-uppercase" style="color: rgb(180, 131, 66)">
+              Projects
+            </h3>
+            <hr style="border-color: rgb(180, 131, 66)" />
+            <div style="margin-top: 70px">
+              <div class="row g-4">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://smartbanking-o4qy.onrender.com/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/smartBanking.png"
+                        alt="Smart Banking"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Smart Banking DApp
+                        </p>
+                        <p style="margin-top: 5px">
+                          A decentralized application for secure banking
+                          transactions, including virtual accounts and loans,
+                          powered by Ethereum.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with ReactJs, web3Js, and Solidity
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://tpaymentsod.abispotlight.com/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/cpods.png"
+                        alt="Drivers App"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Drivers App
+                        </p>
+                        <p style="margin-top: 5px">
+                          An intuitive app for driver management and real-time
+                          task assignments.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with NextJs and TypeScript
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://tpayments.abispotlight.com/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/pamentApp.png"
+                        alt="Payment App"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Payment App
+                        </p>
+                        <p style="margin-top: 5px">
+                          A seamless app for handling payments securely and
+                          efficiently.
+                        </p>
+                        <p style="margin-top: 10px">Built with NextJs</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://nurvia-mvp.netlify.app/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/nurvia.png"
+                        alt="Nurvia"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Nurvia DApp
+                        </p>
+                        <p style="margin-top: 5px">
+                          Decentralized platform offering loans without
+                          collateral, ensuring transparency and security.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with ReactJs, web3Js, and Solidity
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://bejewelled-malasada-b69d4c.netlify.app/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/NFT.png"
+                        alt="Simple Minting Website DApp"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Simple Minting Website DApp
+                        </p>
+                        <p style="margin-top: 5px">
+                          A platform that simplifies NFT creation with a
+                          seamless user interface and secure smart contracts.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with ReactJs, web3Js, and Solidity
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://solo-hacker001.github.io/Emily_music/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/music.png"
+                        alt="Emily Music App"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Emily Music App
+                        </p>
+                        <p style="margin-top: 5px">
+                          A music streaming app with enhanced user experience
+                          and playlist creation features.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with ReactJs, web3Js, and Solidity
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://vocationa.nerdzfactory.org/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/vocationa.png"
+                        alt="Vocationa"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Vocationa
+                        </p>
+                        <p style="margin-top: 5px">
+                          A peer-to-peer e-learning platform facilitating
+                          knowledge sharing.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with HTML, Bootstrap, and CSS
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://mycoffee-shop.netlify.app/"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/coffeeshop.png"
+                        alt="Coffee Shop"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Coffee Shop
+                        </p>
+                        <p style="margin-top: 5px">
+                          An interactive website for coffee lovers with shopping
+                          cart functionality.
+                        </p>
+                        <p style="margin-top: 10px">Built with ReactJS</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://victoria-olatunji.github.io/Grayscale"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/grayscale.png"
+                        alt="Grayscale"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Grayscale
+                        </p>
+                        <p style="margin-top: 5px">
+                          A portfolio site showcasing minimalistic design
+                          principles.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with HTML, Bootstrap, and CSS
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <a
+                    href="https://victoria-olatunji.github.io/Portfolio-template"
+                    style="text-decoration: none"
+                  >
+                    <div
+                      class="card"
+                      style="
+                        background-color: rgb(36, 32, 32);
+                        color: white;
+                        font-size: 16px;
+                      "
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./Assets/template.png"
+                        alt="Bootstrap Template Site"
+                        style="
+                          height: 250px;
+                          object-fit: cover;
+                          border-radius: 4px;
+                        "
+                      />
+                      <div class="card-body">
+                        <p
+                          style="margin: 0; font-size: 18px; font-weight: bold"
+                        >
+                          Bootstrap Template Site
+                        </p>
+                        <p style="margin-top: 5px">
+                          A versatile template showcasing responsive design
+                          principles and bootstrap components.
+                        </p>
+                        <p style="margin-top: 10px">
+                          Built with HTML, Bootstrap, and CSS
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="mt-5">
+            <h3 class="text-uppercase" style="color: rgb(180, 131, 66)">
+              Contact
+            </h3>
+            <hr style="border-color: rgb(180, 131, 66)" />
+            <p>For collaboration or inquiries, feel free to reach out:</p>
+            <p>
+              Email:
+              <a href="mailto:vhykeel@gmail.com" style="color: white"
+                >vhykeel@gmail.com</a
+              >
+            </p>
+            <p>Phone: +2348065197125</p>
           </div>
         </div>
       </div>
-      <div class="col-md-8 animated wow fadeInLeft col-md-pull-4" id="secondcol" style="border-left: 1px solid rgb(155, 153, 153); padding-left: 30px;">
-        <div class="header" style="margin-top: 10%;">INTRODUCTION</div>
-        <div class="job-role">Front-end Developer</div>
-        <div class="header-line"></div>
-        <div class="profile">I am a Junior Front-end developer with expertise in HTML, CSS, ReactJS and Wordpress. 
-          <p>I am currently looking for an Intership role in an organization where I can improve my Skills and also contribute to the growth of the Company.</p>
-        </div>
-        <div class="header" style="margin-top: 60px;">ABOUT ME</div>
-        <div class="job-role">Biography</div>
-        <div class="header-line1"></div>
-        <div class="profile">I have about one year experience in Web Development using HTML, CSS and React. I am also proficient in the use of Bootstrap CSS. I reside in Lagos, Nigeria. </div>
-        <div class="row">
-          <div class="col-4" id="biodata">
-            <div>NAME</div>
-            <div>ADDRESS</div>
-            <div>PHONE</div>
-            <div>EMAIL</div>
-            <div style="margin-top: 70px;">GITHUB</div>
-          </div>
-          <div class="col-4" id="details">
-            <div>Victoria Olatunji</div>
-            <div>Lekki, Lagos</div>
-            <div>08065197125</div>
-            <div id="details">
-              <a class="" href="mailto:aboladegeovhykee@gmail.com.com" style="text-decoration: none; color: white;">aboladegeovhykee@gmail.com</a>
-            </div>
-            <div>
-              <a class="" href="mailto:vhykeel@gmail.com.com" style="text-decoration: none; color: white;">vhykeel@gmail.com</a>
-            </div>
-            <div>
-              <a class="" href="https://github.com/Victoria-Olatunji" style="text-decoration: none; color: white;">Victoria-Olatunji</a>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="download" style="margin-top: 40px; width: 90%; height: 35vh;">
-          <div>
-            <img src="../Assets/arrow.image.png" style="width: 65px; height: 50px; margin-left: 330px; margin-top: 50px;">
-          </div>
-          <div id="biodata" style="text-align: center; margin-top: 30px;">
-            <div>DOWNLOAD CV</div>
-          </div>
-        </div> -->
-        <div class="row" style="margin-top: 70px;">
-          <div class="col-2" id="experience">Experience</div>
-          <div class="col-2" id="experience-line" style="margin-bottom: 20px; border-bottom: 0.3px solid rgb(150, 146, 146); width: 30px; margin-left: 45px;"></div>
-          <div class="col-2" id="edu-skills">Education</div>
-          <div class="col-2" id="experience-line" style="margin-bottom: 20px; border-bottom: 0.3px solid rgb(150, 146, 146); width: 30px; margin-left: 30px;"></div>
-          <div class="col-2" id="edu-skills">Skills</div>
-        </div>
-        <div class="" style="width: 130px; margin-bottom: 50px; margin-top: 2px; border-bottom: 0.3px solid rgb(180, 131, 66);"></div>
-
-        <div class="experience-card" style="margin-top: 40px;">
-          <div class="company">Design, Product and Developer School<span id="year">(2021 - Till Date)</span></div>
-          <div class="role">Front-end Developer Trainee</div>
-          <div class="lorem">Description: Creating Web Application from high fidelity wireframe using HTML, CSS and ReactJS.</div>
-        </div>
-        <!-- <div class="experience-card" >
-          <div class="company">FRENIFY LLC<span id="year">(2018 - Today)</span></div>
-          <div class="role">Jnr. Front-end Engineer</div>
-          <div class="lorem">Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        </div>
-        <div class="experience-card">
-          <div class="company">FRENIFY LLC<span id="year">(2018 - Today)</span></div>
-          <div class="role">Jnr. Front-end Engineer</div>
-          <div class="lorem">Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        </div> -->
-        <!-- <div class="header" style="margin-top: 100px;">PORTFOLIO</div> -->
-        <div class="row">
-          <!-- <div class="job-role">Featured Projects</div> -->
-          <!-- <div>heye</div> -->
-        </div>
-        <!-- <div class="header-line"></div> -->
-        <!-- <div class="carousel slide" data-ride="carousel" data-interval="2000">
-          <div class="carousel-inner">
-            <div class="carousel-item">
-              <div class="card" style="background-color: black; color: white;">
-                <img class="card-img-top" src="../Assets/red-Cabriolet.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Benz Cabriolet</p>
-                  <p class="card-text">BENZ</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <div class="card" style="background-color: black; color: white;">
-                <img class="card-img-top" src="../Assets/royce.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Benz Cabriolet</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card" style="background-color: black; color: white;">
-                <img class="card-img-top" src="../Assets/yellow-benz.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Benz Cabriolet</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card" style="background-color: black; color: white;">
-                <img class="card-img-top" src="../Assets/royce2.jpeg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Benz Cabriolet</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> -->
-        <!-- <div class="header" style="margin-top: 150px;">SERVICES</div>
-        <div class="job-role">What I Do</div>
-        <div class="header-line"></div>
-        <div class="profile">I help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers and growing overall sales.</div>
-        <div class="row" id="skill-card">
-          <div class="col-8" id="aa">
-            <div class="job-skill">Brand Ambassador</div>
-            <div class="lorem">I build brands through cultural insights & strategic vision. Custom crafted business solutions.</div>
-          </div>
-          <div class="col-4" style="text-align: center; margin-top: 70px;">
-            <div style="color: rgb(150, 146, 146);">Starts from <br /><span class="price">£360</span></div>
-          </div>
-        </div>
-        <div class="row" id="skill-card">
-          <div class="col-8" id="aa">
-            <div class="job-skill">Front-end Engineer</div>
-            <div class="lorem">I build brands through cultural insights & strategic vision. Custom crafted business solutions.</div>
-          </div>
-          <div class="col-4" style="text-align: center; margin-top: 70px;">
-            <div style="color: rgb(150, 146, 146);">Starts from <br /><span class="price">£450</span></div>
-          </div>
-        </div>
-        <div class="row" id="skill-card">
-          <div class="col-8" id="aa">
-            <div class="job-skill">Mobile Developer</div>
-            <div class="lorem">I build brands through cultural insights & strategic vision. Custom crafted business solutions.</div>
-          </div>
-          <div class="col-4" style="text-align: center; margin-top: 70px;">
-            <div style="color: rgb(150, 146, 146);">Starts from <br /><span class="price">£700</span></div>
-          </div>
-        </div> -->
-        <div class="header" style="margin-top: 100px;">PROJECTS</div>
-        <!-- <div class="job-role">Happy People</div> -->
-        <div class="header-line" style="width: 90px;"></div>
-        <!-- <div class="row g-2" id="box">
-          <div class="col-6">
-            <div class="inner-box">
-              <p>Envato</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="inner-box">
-              <p>frenify</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="inner-box">
-              <p>Rewall</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="inner-box">
-              <p>Artemiz</p>
-            </div>
-          </div>
-
-          <div class="col-6">
-            <div class="inner-box">
-              <p>Marico</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="inner-box">
-              <p>Yalgoo</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="inner-box">
-              <p>ADUYU</p>
-            </div>
-          </div>
-          <div class="col-6">
-              <div class="inner-box">
-                <p>Dalgate</p>
-              </div>
-          </div>
-        </div> -->
-        <!-- <div>
-          <!-- <div class="carousel slide" data-ride="carousel" data-interval="2000">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eligendi similique eveniet velit quo vitae nulla ratione deleniti quas reiciendis natus laboriosam unde sunt, esse ex numquam iste ullam consequuntur.</div>
-                <div class="role">Albert Boyka</div>
-                <div class="lorem">UX Designer</div>
-              </div>
-              <div class="carousel-item">
-                <div class="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eligendi similique eveniet velit quo vitae nulla ratione deleniti quas reiciendis natus laboriosam unde sunt, esse ex numquam iste ullam consequuntur.</div>
-                <div class="role">Robert Boyle</div>
-                <div class="lorem">Chemist</div>
-              </div>
-              <div class="carousel-item">
-                <div class="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eligendi similique eveniet velit quo vitae nulla ratione deleniti quas reiciendis natus laboriosam unde sunt, esse ex numquam iste ullam consequuntur.</div>
-                <div class="role">Elon Musk</div>
-                <div class="lorem">Technical Lead</div>
-              </div>
-              <div class="carousel-item">
-                <div class="profile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eligendi similique eveniet velit quo vitae nulla ratione deleniti quas reiciendis natus laboriosam unde sunt, esse ex numquam iste ullam consequuntur.</div>
-                <div class="role">Heinrich Pool</div>
-                <div class="lorem">Chief Application Architect</div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="header" style="margin-top: 150px;">NEWS AND TIPS</div>
-        <div class="job-role">Latest Articles</div> -->
-        <!-- <div class="header-line"></div> -->
-        <div style="margin-top: 70px;">
-          <div class="row g-4">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <a href="https://vocationa.nerdzfactory.org/" style="text-decoration: none;">
-                <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;">
-                  <img class="card-img-top" src="./Assets/vocationa.png" alt="" height="250px">
-                    <div class="card-body">
-                      <div class="card-text">
-                        <p>FEBRUARY, 2022</p>
-                        <p>Vocationa </p>
-                        <p>A Peer-to-peer E-Learning Platform </p>
-                      </div>
-                    </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <a href="https://mycoffee-shop.netlify.app/" style="text-decoration: none;">
-                <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;" id="">
-                  <img class="card-img-top" src="./Assets/coffeeshop.png" alt="" height="250px">
-                    <div class="card-body">
-                      <div class="card-text">
-                        <p>JANUARY, 2022</p>
-                        <p>Coffee Shop</p>
-                        <p>Built with ReactJS</p>
-                      </div>
-                    </div>
-              </a>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <a href="https://victoria-olatunji.github.io/Grayscale" style="text-decoration: none;">
-                <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;">
-                  <img class="card-img-top" src="./Assets/grayscale.png" alt="" height="250px">
-                    <div class="card-body">
-                      <div class="">
-                        <p>DECEMBER, 2021</p>
-                        <p>Grayscale</p>
-                        <p>Built with HTML, Bootstrap and CSS</p>
-                      </div>
-                    </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-4 col-md-6 col-lg-6">
-              <a href="https://victoria-olatunji.github.io/Portfolio-template" style="text-decoration: none;">
-                <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;">
-                  <img class="card-img-top" src="./Assets/template.png" alt="" height="250px">
-                    <div class="card-body">
-                      <div class="">
-                        <p>NOVEMBER, 2021</p>
-                        <p>Bootstrap Template Site</p>
-                        <p>Built with HTML, Bootstrap and CSS</p>
-                      </div>
-                    </div>
-                </div>
-              </a>
-            </div>
-            <!-- <div class="col-6">
-              <div class="card" style="background-color: rgb(36, 32, 32); color: white; font-size: 16px;">
-                <img class="card-img-top" src="../Assets/5e5ac4d84ed278001ef9a911.jpeg" alt="" height="250px">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <p class="lorem">JANUARY 2, 2022</p>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam nisi repellat eligendi et! Magnam, in blanditiis fugit beatae voluptatibus, distinctio a est reiciendis ipsum odio pariatur. Voluptatem sunt unde dolores?</p>
-                    </div>
-                  </div>
-              </div>
-            </div> -->
-          </div>
-        </div>
-        <!-- <div style="border: 2px solid rgb(150, 146, 146); height: 10vh; color: rgb(150, 146, 146); text-align: center; margin-top: 50px; padding-top: 15px;">LOAD MORE ARTICLES</div> -->
-        <!-- <div class="header" style="margin-top: 150px;">CONTACT</div>
-        <div class="job-role">Get In Touch</div>
-        <div class="header-line"></div>
-        <div class="profile">If you have any suggestion, project or even you want to say “hello”, please fill out the form below and I will reply you shortly.</div>
-        <div class="row p-2">
-          <div class="col-6" >
-            <input type="name" class="input" placeholder="Name *" style="height: 12vh;">
-          </div>
-          <div class="col-6" >
-            <input type="email" class="input" placeholder="Email *" style="height: 12vh;">
-          </div>
-        </div>
-        <div style="margin-top: 20px;">
-          <input  class="input" placeholder="Phone Number" style="height: 12vh;">
-
-        </div>
-        <div style="margin-top: 20px;">
-          <textarea class="input" name="" id="" cols="30" rows="8" placeholder="Message"></textarea>
-        </div>
-        <div style="margin-top: 24px;">
-          <input type="button" value="SEND MESSAGE" class="input" style="height: 12vh; color: white;">
-        </div> --> -->
-        <div class="lorem1" style="margin-top: 50px;">ADDRESS</div>
-        <div class="role1">
-          <p>14 Betty Udokwe Close, Graceland Estate, Ajah<br> Lagos.</p>
-        </div>
-        <div class="lorem1" style="margin-top: 40px;">PHONE</div>
-        <div class="role1">(+234) 806-519-7125</div>
-        <div class="company1" style="margin-top: 40px;">
-          <a class="" href="mailto:aboladegeovhykee@gmail.com.com" style="text-decoration: none; color: white;">aboladegeovhykee@gmail.com</a>
-        </div>
-        <div class="header-line" style="margin-bottom: 150px;"></div>
-        <div class="row" style="margin-bottom: 150px;">
-          <div class="col-8" id="baseline"></div>
-          <div class="col-2" id="arrow" >
-            <div>
-              <i class="fa fa-long-arrow-up" id="arrow" style=" color: grey; margin-left: 50px; margin-top: 60px; font-size: 25px; font-weight: 100;"></i>
-            </div>
-            
-          </div>
-          <div class="col-2" id="baseline1"></div>
-        </div>
-        <div>
-          <p class="lorem1">Copyright © 2021. All rights reserved, <br> Designed & Developed by <span class="company1">Victoria</span></p>
-        </div>
-      </div>
-      <!-- <div class="col-md-5 text-center animated wow fadeInRight col-md-push-7"  style="margin-top: 40px;">
-        <div class="sticky-top">
-          <div class="card1" style="margin-top: 35px; margin-left: 50px; height: 60vh; background-color: rgb(36, 32, 32); border: 0.2px solid rgb(182, 175, 175); border-radius: 4px 4px 4px 4px;">
-          <img class="card-img-top1" src="../Assets/picture.jpeg" alt="">
-          <div class="col-sm-6 col-md-6 col-lg-12" id="card-body">HI THERE! I AM<br><span>Victoria Olatunji</span></div>
-          </div>
-        </div>
-        
-      </div> -->
     </div>
-  </div>
-  
-</body>
+  </body>
 </html>
-
-
-
-
-
